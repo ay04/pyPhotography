@@ -14,15 +14,26 @@ body {
 .navbar {
  
     padding: 1.0rem;
-    background-color: rgba(101,18,95,0.5);
-    background-image: url(assets/phillip young logo long transparent.png)
+    background-color: black;
+    border: 1px solid red; 
+    text-align: center;
     
 }
 
 .links-container .navbar-link {
-    color: black;
+    color: white;
     text-transform: uppercase;
     cursor: grab;
+    margin: 0 2px;
+    padding: 10;
+    display: inline-block;
+    justify-content: space-between;
 
+}
 
+.logo {
+   float:left;
+    margin-left: 5%;
+    text-align: left;
+   
 }
