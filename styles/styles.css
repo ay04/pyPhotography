@@ -14,14 +14,14 @@ body {
 .navbar {
  
     padding: 1.0rem;
-    background-color: black;
-    border: 1px solid red; 
+    background-color: white;
+    border: 10px solid red; 
     text-align: center;
     
 }
 
 .links-container .navbar-link {
-    color: white;
+    color: black;
     text-transform: uppercase;
     cursor: grab;
     margin: 0 2px;
@@ -34,6 +34,8 @@ body {
 .logo {
    float:left;
     margin-left: 5%;
-    text-align: left;
-   
+    width: 200px;
+    height: 50px;
+    
+    
 }
